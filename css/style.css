@@ -51,11 +51,14 @@ footer{
 #content{
     width: calc(100% - 150px);
     overflow-y: scroll;
-    padding: 0px 20px;
 }
 
 h2{
     color: white;
+}
+
+section{
+    padding: 0px 20px;
 }
 
 
