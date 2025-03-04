@@ -54,6 +54,10 @@ footer{
     padding: 0px 20px;
 }
 
+h2{
+    color: white;
+}
+
 
 /* nav-content */
 
@@ -73,9 +77,8 @@ footer{
 
 /* Recently played */
 
-h2{
-    color: white;
-    padding-left: 10px;
+.recently-played h2{
+    margin: 20px 0px;
 }
 
 h6{
@@ -104,3 +107,17 @@ p{
     text-align: center;
 }
 
+
+/* creato-per e artisti-popolari */
+
+.creato-per, .artisti-popolari{
+    margin-top: 15%;
+}
+
+.creato-per p, .artisti-popolari p{
+    margin: 5px 0px 20px;
+}
+
+.image-content img{
+    border-radius: 50%;
+}
