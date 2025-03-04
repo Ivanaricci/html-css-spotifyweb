@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: calc(100vh - 100px);
+    background-color: grey;
+    display: flex;
+}
+
+header{
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    top: 0;
+}
+
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+#sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: lightgrey;
+}
+
+#content{
+    width: calc(100% - 150px);
+    overflow-y: scroll;
+}
