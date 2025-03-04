@@ -5,32 +5,59 @@
 }
 
 
+/* Utility */
+
+.flex{
+    display: flex;
+}
+
+
+/* layout */
+
+
 main{
     height: calc(100vh - 100px);
-    background-color: grey;
+    background-color: rgb(21, 25, 33);
     display: flex;
 }
 
 header{
     position: sticky;
     height: 75px;
-    background-color: black;
+    background-color: rgb(9, 11, 18);
     top: 0;
 }
 
 
 footer{
     height: 100px;
-    background-color: black;
+    background-color: rgb(40, 40, 40);
 }
 
 #sidebar{
     height: 100%;
     width: 150px;
-    background-color: lightgrey;
+    background-color: rgb(0, 0, 0)
 }
 
 #content{
     width: calc(100% - 150px);
     overflow-y: scroll;
+}
+
+
+/* nav-content */
+
+.nav-content ul{
+    display: flex;
+    list-style-type: none;
+    color: grey;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-content ul li{
+    padding: 20px 15px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
