@@ -28,6 +28,7 @@
 }
 
 
+
 /* layout */
 
 
@@ -202,8 +203,8 @@ p{
 }
 
 .col{
-    width: calc(100% / 6);
-    height: 20vh;
+    width: 200px;
+    height: 200px;
 }
 
 .col img{
@@ -334,7 +335,7 @@ p{
 
 .prog-bar{
     height: 4px;
-    width: 300%;
+    width: 200%;
     background-color: grey;
     margin: 0px 20px;
     border-radius: 10px;
@@ -349,4 +350,15 @@ p{
 
 .icon-right-f i{
     padding: 0px 10px;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width: 1200px){
+        .col{
+            width: 240px;
+            height: 240px;
+        }
 }
