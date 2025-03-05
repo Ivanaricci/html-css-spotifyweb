@@ -360,5 +360,11 @@ p{
     .col{
         width: calc(100% /4);
     }
+
+    .nav-content ul li{
+        line-height: 10px;
+    }
 }
+
+
   
