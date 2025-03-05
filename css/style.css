@@ -203,8 +203,7 @@ p{
 }
 
 .col{
-    width: 200px;
-    height: 200px;
+    width: calc(100% /6)
 }
 
 .col img{
@@ -212,6 +211,7 @@ p{
     height: 100%;
     padding: 5px;
 }
+
 
 .col h6, .col p{
     text-align: center;
@@ -357,8 +357,8 @@ p{
 /* media query */
 
 @media screen and (max-width: 1200px){
-        .col{
-            width: 240px;
-            height: 240px;
-        }
+    .col{
+        width: calc(100% /4);
+    }
 }
+  
