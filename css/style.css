@@ -23,6 +23,10 @@
     align-content: center;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 
 /* layout */
 
@@ -230,6 +234,8 @@ p{
 
 /* footer */
 
+
+
 /* left-footer */
 
 
@@ -246,6 +252,7 @@ p{
 
 .left-footer{
     padding: 20px 10px;
+    width: 20%;
 }
 
 .left-footer h5{
@@ -275,6 +282,10 @@ p{
     color: white;
 }
 
+.middle-footer{
+    width: 60%;
+}
+
 
 
 .icon-music i{
@@ -286,6 +297,56 @@ p{
     font-size: 10px;
 }
 
-.middle-footer hr{
-    width: 20px;
+.play{
+    font-size: 25px;
+}
+
+.progress-bar{
+    height: 4px;
+    width: 50%;
+    background-color: grey;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.progress-music{
+    height: 4px;
+    width: 20%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.icon-music{
+    text-align: center;
+}
+
+
+/* right-footer */
+
+.right-footer{
+    width: 20%;
+    align-items: center;
+}
+
+.icon-right-f{
+    color: white;
+}
+
+.prog-bar{
+    height: 4px;
+    width: 300%;
+    background-color: grey;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.prog-music{
+    height: 4px;
+    width: 20%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.icon-right-f i{
+    padding: 0px 10px;
 }
