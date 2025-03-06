@@ -327,7 +327,10 @@ footer{
     width: 60%;
 }
 
-
+.circle-icon{
+    color: white;
+    display: none;
+}
 
 .icon-music i{
     padding: 15px 10px;
@@ -517,3 +520,21 @@ header a:hover{
 .play:hover{
     font-size: 30px;
 }
+
+.progress-bar:hover .progress-music{
+    background-color: rgb(121, 183, 29);
+}
+
+.prog-bar:hover .prog-music{
+    background-color: rgb(121, 183, 29);
+}
+
+.progress-bar:hover .circle-icon{
+    display: inline-block;
+}
+
+.prog-bar:hover .circle-icon{
+    display: inline-block;
+}
+
+
