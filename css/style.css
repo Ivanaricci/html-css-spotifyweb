@@ -247,7 +247,6 @@ p{
 }
 
 .left-footer img{
-    width: 100%;
     height: 100%;
 }
 
@@ -350,6 +349,7 @@ p{
 
 .icon-right-f i{
     padding: 0px 10px;
+    font-size: 90%;
 }
 
 
@@ -380,6 +380,41 @@ p{
     }
 }
 
+@media screen and (max-width: 768px){
+    .logo{
+        display: none;
+    }
+    
+    .menu-nav p{
+        display: none;
+    }
 
+    .top-sidebar h6, .top-sidebar .playlist{
+        display: none;
+    }
 
-  
+    .download p{
+        display: none;
+    }
+
+    .profile h6{
+        display: none;
+    }
+
+    .bottom-sidebar hr{
+        display: none;
+    }
+
+    .bottom-sidebar .download{
+        margin-bottom: 15px;
+    }
+
+    #sidebar{
+        width: 50px;
+    }
+
+    #content{
+        width: calc(100% - 50px);
+
+    }
+}
