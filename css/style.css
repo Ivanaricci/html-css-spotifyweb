@@ -102,6 +102,7 @@ header a{
 
 .menu-nav li, .playlist li{
     padding: 5px;
+    list-style-type: none;
 }
 
 .logo{
@@ -141,6 +142,10 @@ header a{
     height: 15px;
     color: gray;
     vertical-align: middle;
+ }
+
+ .plus{
+    font-size: 30px;
  }
 
  .bottom-sidebar p{
@@ -300,6 +305,7 @@ footer{
 
 .icon-music i{
     padding: 15px 10px;
+    vertical-align: middle;
 }
 
 .minuti{
@@ -441,3 +447,39 @@ footer{
     }
 }
 
+
+/* Hover */
+
+li:hover{
+    color: white;
+}
+
+li p:hover{
+    color: white;
+}
+
+.download p:hover{
+    color: white;
+}
+
+
+header a:hover{
+    font-size: 16px;
+}
+
+.image-footer:hover{
+    height: 55px;
+}
+
+.text-footer p:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.icon-footer i:hover{
+    color: white;
+}
+
+.play:hover{
+    font-size: 30px;
+}
