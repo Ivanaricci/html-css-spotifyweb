@@ -27,6 +27,10 @@
     justify-content: center;
 }
 
+.items-center{
+    align-items: center;
+}
+
 
 
 /* layout */
@@ -194,6 +198,24 @@ header a{
     text-transform: uppercase;
 }
 
+
+/* content */
+
+.image-col{
+    position: relative;
+}
+
+.front-image{
+    display: inline-block;
+}
+
+.back-image{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+
 /* Recently played */
 
 .recently-played h2{
@@ -239,6 +261,10 @@ p{
 
 .image-content img{
     border-radius: 50%;
+}
+
+.image-content{
+    position: relative;
 }
 
 
@@ -449,6 +475,14 @@ footer{
 
 
 /* Hover */
+
+.image-col:hover .back-image{
+    display: inline-block;
+}
+
+.image-content:hover .back-image{
+    display: inline-block;
+}
 
 li:hover{
     color: white;
