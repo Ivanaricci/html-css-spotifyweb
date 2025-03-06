@@ -491,7 +491,11 @@ li:hover{
     color: white;
 }
 
-li p:hover{
+li:hover p{
+    color: white;
+}
+
+li:hover .plus{
     color: white;
 }
 
