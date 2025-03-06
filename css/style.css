@@ -239,6 +239,12 @@ p{
 
 /* footer */
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 
 /* left-footer */
@@ -434,3 +440,4 @@ p{
         margin: 5px 0px;
     }
 }
+
