@@ -370,5 +370,12 @@ p{
     }
 }
 
+@media screen and (max-width: 990px){
+    .col{
+        width: calc(100% / 2);
+    }
+}
+
+
 
   
