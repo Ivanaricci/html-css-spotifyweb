@@ -96,6 +96,10 @@ header a{
     vertical-align: middle;
 }
 
+.logo-small{
+    display: none;
+}
+
 .menu-nav li, .playlist li{
     padding: 5px;
 }
@@ -384,6 +388,10 @@ p{
     .logo{
         display: none;
     }
+
+    .logo-small{
+        display: block;
+    }
     
     .menu-nav p{
         display: none;
@@ -416,5 +424,13 @@ p{
     #content{
         width: calc(100% - 50px);
 
+    }
+
+    .menu-nav li{
+        padding: 5px 0px;
+    }
+
+    .menu-nav{
+        margin: 5px 0px;
     }
 }
