@@ -335,9 +335,9 @@ p{
 
 .prog-bar{
     height: 4px;
-    width: 200%;
+    width: 35%;
     background-color: grey;
-    margin: 0px 20px;
+    margin: 0px 5px;
     border-radius: 10px;
 }
 
